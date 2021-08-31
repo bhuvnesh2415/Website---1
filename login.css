@@ -1,0 +1,657 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+  }
+  /* css after login from this to*/
+  .logmessage0{
+ color: #f0c819;
+padding-bottom: 1em;
+  }
+  .logmessage2{
+color: #4A82E2;
+padding-bottom: 1em;
+
+  }
+  .logmessage3{
+    color: #4A82E2;
+    padding-bottom: 1em;
+
+
+  }
+  .logmessage4{
+    font-size: 5em;
+  }
+  
+  .logmessage{
+    font-family: "AvertaStd-Semibold";
+font-size: 1.8em;
+line-height: 1.5em;
+padding-top: 0.8em;
+text-align: center;
+}
+.logmessage1{
+color: #0759E4;
+  
+}
+/*  css after login from this to this */
+  .Mainlogin1{
+    position: relative;
+    margin-left:7.83em;
+    font-size: 1vw;
+    margin-top:0.5em;  
+  }
+.Mainlogin1active{
+  position: relative;
+  margin-left:7.83em;
+  font-size: 1vw;
+  margin-top:0.5em;
+
+  margin-top:0.8em;
+  width:22.6vw;
+  height:fit-content;
+  box-shadow: 0.2em 0.2em 0.8em rgba(7, 89, 228, 0.25);
+  border-radius:1em;
+}
+  .Mainlogin3{
+    /* z-index: -1; */
+    width:22.6vw;
+    height:fit-content;
+font-size: 1vw;
+    background: #FFFFFF;
+box-shadow: 0.2em 0.2em 0.8em rgba(7, 89, 228, 0.25);
+/* ,,,,,,,,,,,,,,,,,login is here,,,,,,,,,,,,,,,, */
+border-top-right-radius:1em ;
+border-top-left-radius:none ;
+border-bottom-left-radius:1em ;
+border-bottom-right-radius:1em ;
+margin: 0 0 0 0.5em;
+  }
+ 
+
+  .upperButton{
+    display: flex;
+    overflow-y: hidden;
+   border-top-left-radius: 1em;
+   width: 25.6em;
+   
+
+   
+  }
+
+  /* ,,,,,,,,,,,,,,,,login here ,,,,,,,,,,,,,,*/
+  .LoginBackgroundactive{
+    background: none;
+    box-shadow: none;
+    border-top-left-radius:none ;
+    border-top-right-radius: none; 
+    position: relative;
+   top:0.5em;
+     width: 11.3em;
+     height: 5.9em;
+     margin: 0 0 0 0.5em; 
+  
+  }
+  .LoginBackgroundactive:hover{
+    cursor: pointer;
+  }
+  .upperLoginbuttonactive{
+    background: #FFFFFF;
+    color: #000000;
+    font-family: AvertaStd-Semibold;
+    font-size: 1.6em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    margin: 0.9em 0 1em 1.3em;
+  
+  box-shadow: 0.01em 0.01em 0.7em rgba(0, 0, 0, 0.25);
+border-radius: 0.2em;
+
+  }
+    /* ,,,,,,,,,,,,,,,,login here ,,,,,,,,,,,,,,*/
+  .LoginBackground{
+    /* z-index: 1; */
+   position: relative;
+   top:0.5em;
+   width: 11.3em;
+   height: 5.5em;
+
+    background: #FFFFFF;
+    margin: 0 0 0 0.5em; 
+    box-shadow: 0px -0.02em 0.5em 0.1em rgba(7, 89, 228, 0.1); 
+
+border-top-left-radius:0.8em ;
+border-top-right-radius:0.8em;
+  }
+  .upperLoginbutton{
+  
+    font-family: AvertaStd-Semibold;
+    font-size: 1.6em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    margin: 0.9em 0 1em 1.3em;
+    background: #0759E4;
+    box-shadow: 0.01em 0.01em 0.7em rgba(0, 0, 0, 0.25);
+
+border-radius: 0.2em;
+color: #FFFFFF;
+  }
+
+  .upperLoginbutton:hover{
+    cursor: pointer;
+  }
+
+  .upperRegisterbutton{
+    font-family: AvertaStd-Semibold;
+    font-size: 1.5em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+     height: 1.8em;
+     text-align: center;
+    line-height: 1em;
+     letter-spacing: 0.02em;
+   margin: 0.9em  0em 0em 1em; 
+    background: #0759E4;
+
+    box-shadow: 0.01em 0.01em 0.7em rgba(0, 0, 0, 0.25);
+    border-radius: 0.2em;
+color: #FFFFFF;
+  }
+  .upperRegisterbutton:hover{
+    cursor: pointer;
+  }
+  .RegisterBackground{
+    z-index: 1;
+    position: relative;
+    top:0.5em;
+     width: 11.3em;
+     height: 5.9em;
+     background: #FFFFFF;
+     margin: 0 0.5em 0 0; 
+     box-shadow: 0px -0.02em 0.5em 0.1em rgba(7, 89, 228, 0.1); 
+     border-top-left-radius:0.8em ;
+     border-top-right-radius:0.8em;
+ 
+
+  }
+
+
+
+  /* ------------------------- logic ------------------------- */
+  .RegisterBackgroundactive{
+    background: none;
+ box-shadow: none;
+ border-top-left-radius:none ;
+ border-top-right-radius: none; 
+ top:0.5em;
+     width: 11.3em;
+     height: 5.9em;
+      }
+  .upperRegisterbuttonactive{
+    background: #FFFFFF;
+color: #000000;
+
+  }
+ 
+   /* ------------------------- logic ------------------------- */
+
+  .letmecheck{
+    font-size: 1vw;
+    
+  }
+
+  .logincontent{  
+    width:23.5em;
+    padding: 0 0 0 1.1em;
+    display: flex;
+  }
+ .logindata1{
+  width:14.5em;
+height: 2.2em;
+padding: 0.1vw 0 0 3.5vw;
+font-size:1.4vw;
+margin: 1.5vw 0 0 0;
+background: rgba(7, 89, 228, 0.05);
+border-radius: 0.5vw;
+border: none;
+outline: none;
+  }
+  .logindata1::placeholder{
+    font-family: AvertaStd-Regular;
+font-size: 1vw;
+
+letter-spacing: 0.01vw;
+
+color: rgba(0, 0, 0, 0.6);
+  }
+.tickbox{
+  width:1vw;
+  height:1vw;
+
+ 
+}
+  .checkboxline{
+    margin: 1vw 0 0 0;
+    font-family: AvertaStd-Regular;
+font-size: 1vw;
+line-height: 0.5vw;
+color: rgba(0, 0, 0, 0.7);
+  }
+  .forgetpassword{
+margin: 0 0 0 4vw;
+color: #0759E4;
+  }
+  .EmailIcon{
+    position: absolute;
+    top:5.3em;
+    left:1.7em;
+    font-size: 1.5em;
+  }
+ .PasswordIcon{
+  position: absolute;
+  top: 7em;
+  left:1.2em;
+  font-size: 1.8em;
+ }
+ .passeyes{
+  position: absolute;
+  top: 7em;
+  left: 10.8em;
+  font-size: 1.8em;
+ }
+ .passeyes1{
+   display: none;
+  position: absolute;
+  top: 7em;
+  left: 10.8em;
+  font-size: 1.8em;
+ }
+ .rpasseyes{
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em;
+ }
+ .rpasseyes1{
+  display: none;
+  position: absolute;
+  top: 8.5em;
+  left:9.8em;
+  font-size: 2em;
+ }
+ .Ppasseyes{
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em; 
+ }
+ .Ppasseyes2{
+   display: none;
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em; 
+ }
+ .ContinueLearning{
+  background: #0759E4;
+box-shadow: 0.1em 0.1em 0.9em rgba(0, 0, 0, 0.25);
+border-radius: 0.2em;
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+line-height: 1em;
+letter-spacing: 0.02em;
+width:15.8em;
+border: none;
+height: 2.4em;
+color: #FFFFFF;
+margin: 0.8em 0 0 0;
+ }
+ .ContinueLearning1{
+  background: #0759E4;
+box-shadow: 0.1em 0.1em 0.9em rgba(0, 0, 0, 0.25);
+border-radius: 0.2em;
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+line-height: 1em;
+letter-spacing: 0.02em;
+width:15.8em;
+border: none;
+height: 2.4em;
+color: #FFFFFF;
+margin: 0.8em 0 0 0;
+ }
+ 
+   .orbox{
+     display: flex;
+    margin:0 0 0 1.8em;
+   }
+   .orword{
+    font-family: AvertaStd-Semibold;
+    font-size: 1.5em;
+    /* line-height: 2em; */
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    margin: 0 1em 0 1em;
+    color: rgba(0, 0, 0, 0.6);
+   }
+   .orline1{
+    border-bottom:0.1em solid rgba(0, 0, 0, 0.6);
+    width: 6.5em;
+    height:1em;
+   
+    margin :0.3em 0 0 -0.5em;
+    
+   }
+   .orline2{
+    border-bottom:0.1em solid rgba(0, 0, 0, 0.6);
+    width: 6.5em;
+    height:1em;
+  margin: 0.3em 0 0 0;
+ 
+   }
+   .loginicon{
+    margin: 0 0 0 0;
+    padding:0 0 0 0
+     }
+    .googleicon{
+      font-size: 1.9em;
+      margin:0 0 0 0.6em;
+    }
+     .facebookicon{
+    
+       font-size: 2.02em;
+      margin: 0 0 0 2.85em;}
+     .phoneicon{
+      font-size: 1.8em;
+       margin: 0 0 0 3.2em;}
+
+   /* ---------------------------------------------------------------register-css--------------------------------------------------------- */
+   
+  .registercontent{
+    width:23.5em;
+    padding: 0 0 0 1.1em;
+    display: flex;
+  }
+
+  .NameIconR{
+   
+      position: absolute;
+      top:4em;
+      left: 1.1em;
+      font-size: 2em;
+  
+  }
+  .EmailIconR{
+    position: absolute;
+    top: 8.5em;
+    left: 1.6em;
+    font-size: 1.5em;
+  }
+ .PasswordIconR{
+  position: absolute;
+  top: 9.63em;
+  left: 1.2em;
+  font-size: 1.8em;
+ }
+
+
+   /* ---------------------------------------------------------------Phone-register-css--------------------------------------------------------- */
+ .phonecontent{
+  width:23.5em;
+  padding: 0 0 0 1.1em;
+  display: flex;
+
+ }
+ .flag{
+
+  position: absolute;
+  top: 0.8vw;
+  left:0.4em;
+  font-size: 1.2em;
+
+ }
+ .phoneline{
+  width: 3vw;
+  height: 3.2vw;
+    position: absolute;
+    border-right:0.01em solid black;
+top:8.07em;
+left:1.1em;
+font-size: 1.5em;
+  
+ }
+
+ /* phonelogin-css */
+ .phonelogincontent{
+  width:23.5em;
+  padding: 0 0 0 1.1em;
+  display: flex;
+ }
+ .loginphoneline{
+    width: 3vw;
+  height: 3.2vw;
+    position: absolute;
+    border-right:0.01em solid black;
+top:4.92em;
+left:1em;
+font-size: 1.5em;
+
+ }
+ .flag1{
+position: absolute;
+top:0.8vw;
+left:0.3em;
+font-size: 1.2em;
+ }
+ .countingcircle{
+  position: absolute;
+  top:13vw;
+  left:1.98em;
+  font-size: 1.2em;
+  width: 1.3vw;
+  height: 1.3vw;
+  border:0.1vw solid black;
+  border-radius:1vw;
+ }
+ .circleline{
+   border-right:0.1em solid black ;
+   width: 0.5vw;
+   height: 3.2em;
+   position: absolute;
+   top: 12.1em;
+   left: 4em;
+ }
+ input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ContinueLearning1{
+  display: none;
+}
+
+
+@media (max-width:480px) {
+  
+.M_loginblur{filter: blur(2vw) brightness(0.8);}
+
+  .Mainlogin1{
+    display:none;
+    z-index:1;
+    position: fixed;
+    top:8vh;
+    overflow-y:auto;
+    font-size: 3.7vw;
+    margin-left:0;
+    left:5.9vw;
+  }
+
+  .Mainlogin1Click{
+    display:block;}
+
+.Mainlogin1active{
+  position: absolute;
+
+}
+  .Mainlogin3{
+    width:83.6vw;
+font-size: 3.7vw;
+height:fit-content !important;
+padding-bottom:2vw;
+
+  }
+
+  .logindata1{font-size:5.2vw;
+    padding: 0.4vw 0 0 12vw;
+    margin: 6vw 0 0 0;
+    border-radius: 2vw;}
+
+
+   .logindata1::placeholder{font-size:4vw;}
+
+   .checkboxline{font-size:3.5vw;
+    margin: 5vw 0 1vw 3vw;
+  }
+
+  .forgetpassword{
+margin: 0 0 0 9vw;}
+
+  .tickbox{
+    width:3.5vw;
+    height:3.5vw;
+  }
+
+  .phoneline{
+    width: 11vw;
+    height: 11vw;
+      position: absolute;
+      border-right:0.01em solid black;
+  top:8.2em;
+  left:1.1em;
+  font-size: 1.5em;
+  
+   }
+  
+   .loginphoneline{
+      width: 10vw;
+      top:5.1em;
+    height: 11vw;
+   }
+
+   .flag1{
+    top:2vw;
+     }
+
+     .circleline{
+      border-right:0.09em solid black ;
+      width: .5vw;
+      height: 3.1em;
+      position: absolute;
+      top: 12.22em;
+      left: 4em;
+    }
+
+    .flag{
+      top: 2vw;
+     }
+
+     .registercontent{
+      width:23.5em;
+      padding: 0 0 0 1.1em;
+      display: flex;
+    }
+  
+    .EmailIconR
+    {
+      top: 8.7em;
+    }
+   .PasswordIconR
+   {
+    top: 9.8em;
+   }
+
+
+   .EmailIcon{
+    top:5.5em;
+  }
+ .PasswordIcon{
+  top: 7.1em;
+  left:1.3em;
+ }
+ .passeyes{
+  top: 7.15em;
+ }
+ .passeyes1{
+  top: 7.15em;
+ }
+ .rpasseyes{
+
+  top: 8.74em;
+ }
+ .rpasseyes1{
+  top: 8.74em;
+ }
+ .Ppasseyes{
+  top: 8.74em;
+ }
+ .Ppasseyes2{
+  top: 8.74em;
+ }
+ .ContinueLearning{
+margin: 1em 0 .5em 0;
+ }
+  
+
+ .countingcircle{
+
+top:49vw;
+  left:1.9em;
+  width: 4.4vw;
+  height: 4.4vw;
+  border-radius:5vw;
+ }
+.ContinueLearning1{
+  display: block;
+}
+.ContinueLearning{
+  display: none;
+}
+}

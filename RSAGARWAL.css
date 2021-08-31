@@ -1,0 +1,649 @@
+
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+
+.allB{
+display: flex;
+font-size: 1vw;
+margin-bottom: 1em;
+
+}
+.logo .imglogo{
+width: 6em;
+margin-top: 0.312em;
+margin-right:3.125em;
+margin-left: 3.125em;
+}
+.Navbar{
+
+display: flex;
+margin-top: 1.2em;
+align-items: center;
+background: #0759E4;
+width: 76.2vw;
+border-radius: 0.2em;
+height: 2.5vw;
+justify-content: space-around;
+
+}
+.SearchBBss{
+display: flex;
+margin-left: -3em;
+}
+.SearchBBss div>input {
+
+border-radius: 0 0.2em 0.2em 0;
+border: none;
+padding-left: 0.8vh;
+width: 30vw;
+height:2.2vw;
+font-size: 1.2em;
+align-items: center;
+border: none;
+outline: none;
+}
+
+.SearchBBss div>input::placeholder{
+font-family: AvertaStd-Regular;
+font-size: 1.3vw;
+letter-spacing: 0.02vh;
+padding-left: 0.8vh;
+color: rgba(0, 0, 0, 0.65);
+}
+
+.searchiconbb{
+align-items: center;
+background-color: white;
+height:2.2vw;
+width: 1.8em;
+font-weight: bolder;
+font-size: larger;
+padding-left: 0.5em;
+border-radius: 0.2em 0 0 0.2em;
+color:  #0759E4;
+}
+
+
+
+
+.ONE .bhuy{
+text-decoration: none;
+font-family: AvertaStd-Semibold;
+font-size: 1.4vw;
+margin-left: -2.5em;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+
+.DropDownMenu {
+position:absolute;
+margin-top: 0.36em; 
+margin-left:-3.5em ; 
+background-color: #4285F4;
+color: white;
+display: none;
+cursor:pointer;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+z-index: 1;
+
+
+}
+.DropDownMenu li{
+font-family: AvertaStd-Semibold;
+font-size: 1.268vw;
+line-height: 1.4em;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.dropicon{
+color: white;
+transition: all 0.3 ease;
+cursor: pointer;  
+font-size:larger;
+
+}
+
+
+
+
+.luke li:hover .DropDownMenu{
+display:block;
+
+}
+.luke li:hover .dropicon{
+transform: rotate(180deg);
+}
+
+
+
+.wi .SubDropDownMenu1 li:hover{
+background :#95BAF9 !important;
+ 
+
+
+}
+.wi .SubDropDownMenu2 li:hover{
+background :#95BAF9 !important;
+
+
+
+}
+.wi .SubDropDownMenu3 li:hover{
+background :#95BAF9 !important;
+
+
+}
+.wi .SubDropDownMenu4 li:hover{
+background :#95BAF9 !important;
+
+
+
+}.wi .SubDropDownMenu5 li:hover{
+background :#95BAF9 !important;
+
+
+
+}
+.wi .SubDropDownMenu6 li:hover{
+background :#95BAF9 !important;
+
+
+
+}
+.bhu .DropDownMenu li:hover{
+background :#95BAF9;
+
+
+
+}
+
+
+
+
+
+.SubDropDownMenu1 {
+
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+top: -0.01em;;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+}
+.DropDownMenu li:hover .SubDropDownMenu1{
+display: block;
+color: #f9f295;
+
+}
+.SubDropDownMenu2 {
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+top: 1.38em;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu2{
+display: block;
+
+}
+
+
+.SubDropDownMenu3 {
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+top: 2.75em;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu3{
+display: block;
+
+}
+
+.SubDropDownMenu4 {
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+  top:4.14em;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu4{
+display: block;
+
+}
+.SubDropDownMenu5 {
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+  top: 5.5em;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu5{
+display: block;
+
+}
+
+.SubDropDownMenu6 {
+position: absolute;
+width: 8.2em;
+left: 11.7vw;
+top: 6.95em;
+background: #689DF6;
+display: none;
+border-radius: 0 0 0.2em 0.2em;
+box-shadow: 0 50px 50px rgba(0, 0, 0, 0.184);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu6{
+display: block;
+
+}
+
+
+
+.three{ 
+text-decoration: none;
+font-family: AvertaStd-Semibold;
+font-size: 1.2vw;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+.to1{
+margin-left: 5.55em;
+}
+.to2{
+margin-left: 5.9em;
+}
+.to3{
+margin-left:6.45em ;
+}
+
+.to4{
+margin-left: 5.6em;
+}
+
+.to5{
+margin-left: 4.84em;
+}
+
+.to6{
+margin-left: 0.09em;
+}
+
+
+
+
+
+.all123one{
+  font-size: 1vw;
+}
+.RsagrawalSolutionall123{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1em;
+}
+.RsagrawalSolutio123{
+ 
+  font-family: AvertaStd-Semibold;
+  font-size: 1.2vw;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #4285F4 0%, rgba(255, 255, 255, 0) 128.84%);
+  height: 2.3vw;
+  border-radius: 0.4vw;
+  display: flex;
+ align-items: center;
+  padding-left: 0.5em;
+  width: 76.1vw;
+  margin-bottom: 1em;
+  margin-left: -0.1em;
+}
+.loko145{
+  background: #13CD8C;
+  border-radius: 0.2em;
+  border: none;
+  margin-left:12.3em ;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  height:2vw;
+  width: 6vw;
+  
+  font-family: AvertaStd-Semibold;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+.footerbox{
+  font-size: 1vw;
+}
+
+  .footerbox3{
+    font-size: 1vw;
+text-align: center;
+margin-top:5em ;
+
+  }
+.Mainfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    font-size: 1vw;
+    width: 76.2vw;
+    margin-left: 12.1em;
+}
+.Mainfooter li{
+ 
+  padding-bottom: 1.2vh;
+}
+.he{
+  font-family: AvertaStd-Regular;
+font-size: 1.3vw;
+line-height: 2vw;
+text-align: center;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.OurBraches{
+  
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #1E67E3;
+padding-right: 1vw;
+padding-bottom: 1vw;
+}
+.tuio
+{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+color: #1E67E3;
+}
+.tuio1{
+  
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+  font-weight: 400;
+letter-spacing: 0.03em;
+padding-left: 2em;
+line-height:2em;
+
+color: #1E67E3;
+
+}
+
+.QuickLearn{ 
+ 
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #1E67E3;
+padding-right: 2vw;
+padding-bottom: 1vw;
+}
+.lop123{
+ margin-left:-2.5em;
+}
+.tuio2{
+  
+
+    display: flex;
+    font-family: AvertaStd-Regular;
+   font-size: 1.3vw;
+
+    font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height:2em;
+  color: #1E67E3;
+}
+.tuio3{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+ line-height:2em;
+font-weight: 400;
+letter-spacing: 0.03vh;
+color: #1E67E3;
+padding-left: 3em;
+}
+.testwala{
+margin-left: 1vh;
+}
+.TestSeries{ font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #1E67E3;
+padding-bottom: 1vw;
+}
+.tuio4{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+font-weight: 400;
+letter-spacing: 0.03vh;
+line-height:2em;
+color: #1E67E3;
+}
+.boardwala{
+  padding-left: 1vw;
+}
+.boardexam{font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #1E67E3;
+padding-bottom: 1vw;
+
+
+}
+.tuio5{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+color: #1E67E3;
+
+}
+.tuio6{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+margin-top: -4em;
+  font-weight: 400;
+letter-spacing: 0.03em;
+line-height:2em;
+
+color: #1E67E3;
+}
+
+/*------------------------------------ fotter -bottom ---------------------------------------*/
+.fotterbottom{
+  display: flex;
+  width: 76.2vw;
+  margin:2.09em 0 0 12em;
+
+}
+
+
+.bottomfont{
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  letter-spacing: 0.03vh;
+  line-height:2vh;
+color: #1E67E3;
+}
+.textfollow{
+  margin-right: 1.7vw;
+}
+.textcontact{
+  margin-right: 5vw;
+}
+.followus{
+  margin-left: 0.4vw;
+}
+.contactus{
+  margin-left: 15.7vw;
+ 
+}
+.findus{
+  margin-left: 14.2em;
+
+}
+.textfind{
+  margin-right: 3vw;
+}
+.findusicons{
+margin:1.2vw 0 0 .5vw;
+}
+.findusicons2{
+  font-size: 1.5vw;
+}
+
+.followusicon{
+  margin:1.5vw 0 0 0;
+  
+}
+.contacticons{
+  margin:1.5vw 0 0 5vw;
+  
+}
+.contacticons1{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+letter-spacing: 0.03vh;
+color: #1E67E3;
+
+}
+
+.footericon1{
+  font-size: 1.8vw;
+
+}
+.footericon2{
+  font-size: 1.8vw;
+  margin-left: 1.2vw;
+}
+.footericon3{
+  font-size: 1.7vw;
+  margin-left: 1.2vw;
+}
+.footericon4{
+  font-size: 1.5vw;
+  margin-left: 1.2vw;
+}
+
+.findusicons1{
+  font-family: AvertaStd-Regular;
+ font-size: 1.3vw;
+
+letter-spacing: 0.03vh;
+line-height:1vh;
+color: #1E67E3;
+
+}

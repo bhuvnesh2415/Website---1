@@ -1,0 +1,976 @@
+
+   @font-face {
+    font-family: "AvertaStd-Semibold";
+    src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+    src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+        format("svg");
+  }
+  @font-face {
+    font-family: "AvertaStd-Regular";
+    src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+    src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+        format("svg");
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+
+}
+.rightlogoutnav{
+height: 5vh;
+margin-top: 0.8em;
+background-color: #ffffff;
+box-shadow: 0em 0em 0.8em #0759E4;
+cursor: pointer;
+width: 2.5vw;
+margin-left: 2em;
+border: none;
+font-size: 1.5em;
+border-radius: 5em;
+}
+.rightlogoutnav:hover{
+  transform: scale(1.1);
+}
+.rightlogoutnav:hover::after{
+content: "logout";
+position: absolute;
+top:2.4em;
+background-color: #ffffff;
+margin-left: -1.8em;
+
+
+}
+.allB{
+  display: flex;
+  font-size: 1vw;
+  margin-bottom: 2em;
+  
+}
+.op6{
+  background: linear-gradient(360deg, rgba(149, 186, 249, 0.1) 0%, rgba(149, 186, 249, 0) 100%);
+}
+.logo .imglogo{
+  width: 6em;
+  margin-top: 0.312em;
+margin-right:3.125em;
+margin-left: 3.125em;
+}
+.Navbar{
+
+  display: flex;
+  margin-top: 1.2em;
+  align-items: center;
+  background: #0759E4;
+  width: 76.2vw;
+  border-radius: 0.2em;
+  height: 2.5vw;
+  justify-content: space-around;
+  
+}
+.SearchBBss{
+  display: flex;
+  margin-left: -3em;
+  }
+.SearchBBss div>input {
+
+  border-radius: 0 0.2em 0.2em 0;
+  border: none;
+  padding-left: 0.8vh;
+  width: 30vw;
+  height:2.2vw;
+  font-size: 1.2em;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.SearchBBss div>input::placeholder{
+  font-family: AvertaStd-Regular;
+  font-size: 1.3vw;
+  letter-spacing: 0.02vh;
+  padding-left: 0.8vh;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.searchiconbb{
+ align-items: center;
+ background-color: white;
+ height:2.2vw;
+ width: 1.8em;
+ font-weight: bolder;
+ font-size: larger;
+ padding-left: 0.5em;
+ border-radius: 0.2em 0 0 0.2em;
+color:  #0759E4;
+}
+
+
+/* --------------------------------------------- Mobile View Navbar--------------------------------------------------- */
+
+.M_navbar
+{
+  display:none;
+  align-items:center;
+  justify-content:space-around;
+  width:100vw;
+  padding-top:4vw;
+
+}
+
+.M_navbar1{display:flex;
+  /* background:blue; */
+  align-items:center;
+  width:45vw;
+  font-size:6vw;
+  font-family: AvertaStd-Semibold;
+line-height: 1vw;
+letter-spacing: 0.03em;
+color: #333333;
+  justify-content:space-between;}
+
+
+
+
+.M_navbar2{display:flex;
+  width:22vw;
+  align-items:center;
+  justify-content:space-between;}
+
+
+
+
+@media only screen and (max-width: 480px) 
+{
+  .Navbar{display:none;}
+
+
+  .logo{display:none;}
+
+  .M_navbar{display:flex}
+
+  .M_loginpopX{display:none; position:fixed;
+  top:6vw;
+  z-index: 1;;
+left:83vw;}
+
+  .M_loginpopOClick{display:none;}
+
+  .M_loginpopXClick
+  {
+    display:block;
+    color: #333333;
+  }
+
+
+}
+
+/* -----------------------------------------------------------Mobile view navbar code end--------------------------------------- */
+
+.ONE .bhuy{
+  text-decoration: none;
+  font-family: AvertaStd-Semibold;
+  font-size: 1.4vw;
+  margin-left: -2.5em;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  }
+  
+.DropDownMenu {
+  position:absolute;
+margin-top: 0.36em; 
+margin-left:-3.5em ; 
+  background-color: #4285F4;
+  color: white;
+  display: none;
+  cursor:pointer;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+   z-index: 1;
+
+  
+  }
+.DropDownMenu li{
+  font-family: AvertaStd-Semibold;
+font-size: 1.268vw;
+line-height: 1.4em;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.dropicon{
+  color: white;
+  transition: all 0.3 ease;
+cursor: pointer;  
+font-size:larger;
+
+}
+
+
+
+
+.luke li:hover .DropDownMenu{
+  display:block;
+  
+}
+.luke li:hover .dropicon{
+  transform: rotate(180deg);
+}
+
+
+
+.wi .SubDropDownMenu1 li:hover{
+  background :#95BAF9 !important;
+   
+  
+  
+}
+.wi .SubDropDownMenu2 li:hover{
+  background :#95BAF9 !important;
+  
+  
+  
+}
+.wi .SubDropDownMenu3 li:hover{
+  background :#95BAF9 !important;
+  
+  
+}
+.wi .SubDropDownMenu4 li:hover{
+  background :#95BAF9 !important;
+  
+  
+  
+}.wi .SubDropDownMenu5 li:hover{
+  background :#95BAF9 !important;
+  
+  
+  
+}
+.wi .SubDropDownMenu6 li:hover{
+  background :#95BAF9 !important;
+  
+  
+  
+}
+.bhu .DropDownMenu li:hover{
+  background :#95BAF9;
+  
+  
+  
+}
+
+
+
+
+
+.SubDropDownMenu1 {
+ 
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+  top: -0.01em;;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+ }
+.DropDownMenu li:hover .SubDropDownMenu1{
+  display: block;
+  color: #f9f295;
+  
+}
+.SubDropDownMenu2 {
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+  top: 1.38em;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu2{
+  display: block;
+
+}
+
+
+.SubDropDownMenu3 {
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+  top: 2.75em;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu3{
+  display: block;
+  
+}
+.SubDropDownMenu4 {
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+    top:4.14em;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu4{
+  display: block;
+  
+}
+.SubDropDownMenu5 {
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+    top: 5.5em;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu5{
+  display: block;
+  
+}
+
+.SubDropDownMenu6 {
+  position: absolute;
+  width: 8.2em;
+  left: 11.7vw;
+  top: 6.95em;
+  background: #689DF6;
+  display: none;
+  border-radius: 0 0 0.2em 0.2em;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.184);
+
+}
+
+.DropDownMenu li:hover .SubDropDownMenu6{
+  display: block;
+  
+}
+
+
+
+.three{ 
+  text-decoration: none;
+  font-family: AvertaStd-Semibold;
+  font-size: 1.2vw;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.to1{
+  margin-left: 5.55em;
+}
+.to2{
+  margin-left: 5.9em;
+}
+.to3{
+  margin-left:6.45em ;
+}
+
+.to4{
+  margin-left: 5.6em;
+}
+
+.to5{
+  margin-left: 4.84em;
+}
+
+.to6{
+  margin-left: 0.09em;
+}
+
+
+.poiu123{
+  display: flex;
+}
+
+/* CARDS */
+
+
+
+
+.Allps{
+  margin-left: 12.4em;
+  font-size: 1vw;
+  margin-top: 1em;
+}
+.allps1{
+  display: flex;
+  width: 45vw;
+}
+
+
+
+
+.One-On-One-Classes{
+  background: #FFFFFF;
+box-shadow: 0.1em 0.1em 0.9em 0.1em rgba(15, 157, 88, 0.25);
+border-radius: 1em;
+  width: 25vw;
+  height: 12vw;
+  display: flex;
+}
+
+
+
+
+.txt1{
+  font-family: AvertaStd-Semibold;
+font-size: 1.2em;
+margin-top:1em;
+margin-bottom: 0.5em;
+letter-spacing: 0.03em;
+padding-left: 1em;
+color: #0F9D58;
+
+}
+.para1{
+  
+font-family: AvertaStd-Regular;
+font-size: 0.8em;
+padding-top: 0.5em;
+line-height: 0.8em;
+letter-spacing: 0.03em;
+font-weight: 600;
+padding-left: 1.4em;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.img1{
+margin-left: 1.5em;
+margin-top: 3.9em;
+}
+
+.OfflineClasses{
+  width:20vw;
+  height: 12vw;
+  background: #FFFFFF;
+  box-shadow: 0.1em 0.1em 0.9em 0.1em rgba(154, 76, 149, 0.25);
+  border-radius: 1em;
+  margin-left: 1em;
+  display: flex;
+}
+
+.txt2{
+  font-family: AvertaStd-Semibold;
+font-size: 1.2em;
+margin-top:1em;
+margin-bottom: 0.5em;
+letter-spacing: 0.03em;
+padding-left: 1em;
+color:#9A4C95;
+
+
+}
+.para2{
+  
+font-family: AvertaStd-Regular;
+font-size: 0.8em;
+padding-top: 0.5em;
+line-height: 0.8em;
+letter-spacing: 0.03em;
+font-weight: 600;
+padding-left: 1.4em;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.img2{
+  margin-left: 1em;
+  margin-top: 3.9em;
+}
+
+.allps2{
+  display: flex;
+  width: 45vw;
+margin-top: 1.5em;
+}
+
+.LiveClasses{
+  background: #FFFFFF;
+  box-shadow: 0.1em 0.1em 0.9em 0.1em rgba(219, 68, 55, 0.25);
+  border-radius:1em;
+  width:20vw;
+  height: 12vw;
+  display: flex;
+}
+.txt3{
+  font-family: AvertaStd-Semibold;
+font-size: 1.2em;
+margin-top:1em;
+margin-bottom: 0.5em;
+letter-spacing: 0.03em;
+padding-left: 1em;
+color:  #DB4437;
+
+
+}
+.para3{
+  
+font-family: AvertaStd-Regular;
+font-size: 0.8em;
+padding-top: 0.5em;
+line-height: 1.5em;
+letter-spacing: 0.03em;
+font-weight: 600;
+padding-left: 1.4em;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.img3{
+margin-left: 1em;
+margin-top: 5em;
+}
+
+
+
+
+
+.GetFreeCounselling{
+  width:25vw;
+  height: 12vw;
+  background: #FFFFFF;
+  box-shadow: 0.1em 0.1em 0.9em 0.1em rgba(244, 180, 0, 0.25);
+  border-radius: 1em;
+  margin-left: 1em;
+  display: flex;
+}
+
+.txt4{
+  font-family: AvertaStd-Semibold;
+font-size: 1.2em;
+margin-top:1em;
+margin-bottom: 0.5em;
+letter-spacing: 0.03em;
+padding-left: 1em;
+color: #F4B400;
+;
+
+
+}
+.para4{
+  
+font-family: AvertaStd-Regular;
+font-size: 0.8em;
+padding-top: 0.5em;
+line-height: 1.5em;
+letter-spacing: 0.03em;
+font-weight: 600;
+padding-left: 1.4em;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.img4{
+margin-left: 2em;
+margin-top: 4.6em;
+}
+
+
+
+
+  
+
+
+
+/* BestFaculty */
+
+.IndiasBestFaculty{
+  margin-left: 12.2em;
+  font-size: 1vw;
+}
+.loplopbb{
+  font-family: AvertaStd-Semibold;
+font-size: 1.5em;
+letter-spacing: 0.03em;
+margin-bottom: 2.5em;
+
+color: #000000;
+
+}
+
+.BestFaculty{
+  display: flex;
+  width: 76.2vw;
+  margin-left: 1.1em;
+  text-align: center;
+}
+.iit1{
+  width: 18.55vw;
+}
+
+.iit2{
+  width: 18.55vw;
+  margin-left:8.2em ;
+}
+.iit3{
+  width: 18.55vw;
+  margin-left:8.2em ;
+
+}
+.iit4{
+  width: 18.55vw;
+  margin-left:8.2em;
+}
+
+.iitbb{
+  font-family: AvertaStd-Regular;
+font-size: 1vw;
+line-height: 1.5em;
+letter-spacing: 0.03em;
+font-weight: 600;
+color: rgba(0, 0, 0, 0.8);
+
+}
+.iitname{
+  font-family: AvertaStd-Semibold;
+font-size: 1vw;
+line-height: 1.5em;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+
+
+
+/* WhyAlphalyte */
+
+
+.WhyAlphalyte{
+  margin-left: 12.3em;
+  font-size: 1vw;
+  margin-top:7em ;
+}
+.alpha{
+  font-family: AvertaStd-Semibold;
+font-size: 2em;
+margin-bottom: 2.5em;
+letter-spacing: 0.03em;
+
+}
+.WHYBB{
+  width: 76.2vw;
+  display: flex;
+text-align: center;
+}
+.ONW1{
+  width: 20vw;
+  height:11.5vw ;
+  background: #FFFFFF;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  margin-left: 0.2em;
+}
+
+
+.ONW2{
+  width: 20vw;
+  height:11.5vw ;
+  margin-left: 8.1em;
+  background: #FFFFFF;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+}
+
+.ONW3{
+   width: 20vw;
+   height:11.5vw ;
+   margin-left: 8.1em;
+  background: #FFFFFF;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+}
+.courcebb1{
+  margin-top: 1em;
+}
+.courcebb2{
+  margin-top: 1.5em;
+}
+.courcebb3{
+  margin-top: 1.9em;
+
+}
+.pop1{
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+letter-spacing: 0.02em;
+margin-top:0.4em;
+color: #000000;
+
+}
+
+.pop2{
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+letter-spacing: 0.02em;
+color: #000000;
+
+}
+
+.pop3{
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+letter-spacing: 0.02em;
+margin-top:0.4em;
+color: #000000;
+
+}
+
+.indiasbestfaculitysvg
+{height: 9em;
+width: 10em;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) 
+{
+  .Allps{
+    display: flex;
+    font-size: 3vw;
+    margin-left: 0;
+width: 32em;
+overflow: hidden;
+
+  }
+  .allps1{
+    display: flex;
+    width: fit-content;
+    margin-top: 1.5em;
+
+  }
+  .allps2{
+    margin-left: 1em;
+    width: fit-content;
+    height: fit-content;
+  }
+  .One-On-One-Classes{
+    width: 27.5em;
+    height: 13em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+    
+  }
+
+
+
+  .txt1{
+  font-size: 1.5em;
+  }
+  .para1{
+  font-size: 1.2em;
+  }
+  .img1{
+  margin-left: 0.8em;
+  margin-top: 4.5em;
+  }
+
+
+
+
+  .OfflineClasses{
+    
+    width: 27.5em;
+    height: 13em;
+ 
+    margin-left: 3em;
+    margin-bottom: 2em;
+   }
+   
+
+  .txt2{
+    font-size: 1.5em;
+    }
+    .para2{
+    font-size: 1.2em;
+    }
+    .img2{
+      font-size: 1.1em;
+    margin-left: 4.5em;
+    margin-top: 3.5em;
+    }
+
+  .LiveClasses{
+    width: 27.5em;
+    height: 13em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  .txt3{
+    font-size: 1.5em;
+    }
+    .para3{
+    font-size: 1.2em;
+    }
+    .img3{
+    margin-left: 4.5em;
+    margin-top: 5.5em;
+    }
+
+  .GetFreeCounselling{
+    width: 27.5em;
+    height: 13em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  .txt4{
+    font-size: 1.3em;
+    font-weight: 900;
+    }
+    .para4{
+    font-size: 0.95em;
+    }
+    .img4{
+    margin-left: 4em;
+    margin-top: 5.5em;
+    }
+
+
+    .IndiasBestFaculty{
+      margin-left: 9em;
+    }
+
+.BestFaculty{
+  display: flex;
+  font-size: 3vw;
+width: 27.45em;
+overflow: hidden;
+}
+
+    .iit1{
+      width: 37.1vw;
+      /* margin-left: 0.5em; */
+    }
+    
+    .iit2{
+      width: 37.1vw;
+      margin-left:5.1em ;
+    }
+    .iit3{
+      width: 37.1vw;
+      margin-left:5.1em ;
+    
+    }
+    .iit4{
+      width: 37.1vw;
+      margin-left:5.1em ;
+
+    }
+    .loplopbb{
+   font-size: 5em; 
+   margin-bottom: 1em;
+   margin-left: 0.6em;
+    }
+  
+.iitbb{
+font-size: 2.2vw;
+
+}
+.iitname{
+font-size: 2.2vw;
+}
+.indiasbestfaculitysvg
+{height: 7em;
+width: 10em;
+background-color: #1E67E3;
+border-radius: 1em;
+}
+
+.WhyAlphalyte{
+  overflow: hidden;
+}
+.alpha{
+font-size: 4.5em;
+margin-bottom: 1em;
+letter-spacing: 0.03em;
+
+}
+
+.WHYBB{
+  display: flex;
+  font-size: 3vw;
+width: 80em;
+}
+.ONW1{
+  width: 70vw;
+  height:31.5vw ;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  margin-left: 2.5em;
+}
+.ONW2{  width: 70vw;
+  height:31.5vw ;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  margin-left: 9em;
+}
+.ONW3{
+  width: 70vw;
+  height:31.5vw ;
+  border: 0.4em solid #000000;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  margin-left: 7em;
+  margin-RIGHT: 7em;
+}
+  }
+
+/* auto swap */
+
+.phsl2{
+  transition: 1s;
+}
+.phsl{
+  transition: 1s;
+}
+.phsl1{
+  transition: 1s;
+}

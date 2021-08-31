@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+ 
+}
+.component-4b{
+ 
+font-size: 1vw;
+
+}
+
+
+
+.slider-titleb
+{font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  width:76.2vw;
+  margin:-3em auto 0 8.2em;
+  color: #000000;
+
+}
+
+.sliderb
+{ padding:1.5em .5em;
+  font-size:1.4vw;
+  width:76.9vw;
+  overflow:hidden;
+  margin:2em 8.29em;
+
+}
+
+.slider-innerb{
+  display:flex;
+  transition:transform 0.3s;
+}
+
+.box1b
+{ transition: 1s;
+  width:76.15vw;
+  flex-shrink:0;
+  margin-right: 1.7em;
+  height:17em;
+  background: #FFFFFF;
+  box-shadow: .001em .001em .3em rgba(13, 25, 163, 0.25);
+  border-radius: 0.5em;
+}
+.video1{
+  width:40vw;
+  height:17em;
+  margin-left: -1.1em;
+  margin-top: -1em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  }
+  
+.box-labelb{
+  
+  display: flex;
+  padding:1.1em;
+  text-align:center;
+  font-family: AvertaStd-Semibold;
+  letter-spacing: 0.02em;
+}
+.PARAH3BHU{
+  padding-left: 3.5em;
+}
+
+.bhup{
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  /* or 154% */
+  
+  letter-spacing: 0.02vw;
+  
+  /* table black text colours */
+  
+  color: rgba(51, 51, 51, 0.8)
+}
+.bhuh3{
+  font-family: AvertaStd-Semibold;
+  font-size: 2vw;
+  padding-top: 1em;
+  /* identical to box height, or 133% */
+  
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  color: #000000;
+  
+}
+
+
+
+
+
+/* Slider process start */
+
+.nextnextb
+{
+  position:absolute;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+  border-radius:50em;
+  transform:translateY(-170%);
+  right:24vw;
+  border:none;
+  height:4.2vw;
+  width:4.2vw;
+  align-items:center;
+}
+
+.prevprevb
+{
+  position:absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2em rgba(13, 25, 163, 0.23);
+  border-radius:50em;
+  border:none;
+  transform:translateY(-170%);
+  display:none;
+  left:65.5vw;
+  height:4.2vw;
+  width:4.2vw;
+}
+
+.bhujk{
+  color:#5C5C5C;
+  font-size:3vw;
+cursor: pointer;
+}
+
+.prev-iconb{transform: rotate(-180deg);}

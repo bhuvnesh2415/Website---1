@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+
+.component-4{
+  font-size: 1vw;
+  margin-top: -7.2em;
+}
+
+
+.slider-title{
+font-family: "AvertaStd-Semibold";
+font-size: 1.5vw;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  width:76.2vw;
+  margin:7em auto 1.5em 8.2em;
+  color: #000000;
+
+}
+
+.slider{ padding:1.5em .5em;
+  font-size:1.4vw;
+  width:76.2vw;
+  overflow:hidden;
+  margin:1em 8.43em;
+
+}
+
+.slider-inner{
+  display:flex;
+  transition:transform 0.3s;
+}
+
+.box
+{ 
+  width:9em;
+  flex-shrink:0;
+  margin-right: 1.4em;
+  height:7.5em;
+  background: #FFFFFF;
+  box-shadow: .001em .001em .3em rgba(13, 25, 163, 0.25);
+  border-radius: 0.5em;
+  transition:.2s;
+}
+
+.box:hover
+{
+  transform:scale(102%);
+}
+
+
+.box-label
+{ padding:1.1em;
+  text-align:center;
+  font-family: AvertaStd-Semibold;
+  letter-spacing: 0.02em;
+  color: #0F9D58;
+}
+
+.box-svg
+{ 
+  text-align:center;
+}
+
+
+
+
+/* Slider process start */
+
+.next
+{
+  position:absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+  border-radius:50em;
+  right:9.1vw;
+  margin-top:-7vw;
+  border:none;
+  height:4.2vw;
+  width:4.2vw;
+  transition:0.3s
+}
+
+.next:hover{transform:scale(1.05)}
+
+.prev
+{
+  position:absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2em rgba(13, 25, 163, 0.23);
+  border-radius:50em;
+  border:none;
+  margin-top:-7vw;
+  margin-left:1vw;
+  display:none;
+  left:9.8vw;
+  height:4.2vw;
+  width:4.2vw;
+  transition:0.3s;
+}
+
+.prev:hover{transform:scale(1.05)}
+
+.koushal{
+  color:#0F9D58;
+  margin-top:0.1em;
+  font-size:3vw;
+cursor: pointer;
+}
+
+.prev-icon{transform: rotate(-180deg);}
+
+
+@media (max-width:480px) {
+.slider-title{font-size:5vw;
+  width:fit-content;
+  margin:2em auto 1.5em 2.4em;}
+
+  .slider{ 
+    font-size:4vw;
+    width:80vw;
+    overflow:hidden;
+    margin:1em auto;
+  }
+
+  .next-prev
+{
+  display:none}
+
+
+
+
+}

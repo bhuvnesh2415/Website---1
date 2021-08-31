@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+* {
+  padding:0;
+  margin: 0px;
+  box-sizing: border-box;
+ 
+}
+
+.leftnavmovback{
+  background:rgb(0,0,0,0.8);
+width:100vw;
+height:100vh;
+top:0;
+left:0;
+z-index:1;
+position:fixed;
+display:none;
+}
+
+
+.allleftnavmob{
+  display:none;
+  transition:1s;
+  font-size: 3vw;
+ position:fixed;
+ overflow-Y:scroll;
+  width: 75vw;
+  height:100vh;
+  background:#fff;
+z-index: 2;
+top: 0;
+left: 0;
+}
+
+.top11_icon{
+  color:  #1E67E3;
+}
+
+.top111{
+  padding-top:1.5em;
+  display: flex;
+
+  align-items:center;
+  padding-left:3em;
+  letter-spacing: 0.03em;
+  color: #333333;
+  width:22em;
+  font-family: "AvertaStd-Semibold";
+}
+.top111 p{font-size:2.3em}
+
+.top111_text{
+  width:7.2em;
+}
+
+
+
+.top_home{  display: flex;
+  align-items:center;
+  width:22em;
+  line-height:3.5em;
+  font-family: "AvertaStd-Semibold";
+  padding-left:3em;
+  color: white;
+  letter-spacing: 0.01em;
+  background: #1E67E3;
+  border-radius: 0em 0.4em 0.4em 0em;
+margin-bottom: 0.6em; 
+margin-top: 2em; 
+}
+ .top_home p{
+   font-size:1.5em;
+  }
+.top_home_text
+{
+ text-align:center;
+ width:4.2em; 
+}
+
+
+
+
+
+
+
+.top11{
+  display: flex;
+  align-items:center;
+  color: #333333;
+  font-family: "AvertaStd-Semibold";
+  padding-left:3em;
+  margin-bottom: 0.6em;
+  width:22em;
+  letter-spacing: 0.01em;
+  border-radius: 0em 0.4em 0.4em 0em;
+  line-height:3.5em;
+}
+.top11 p{
+  font-size:1.5em;
+}
+.top11_text{
+  text-align:left;
+  padding-left:.6em;
+  width:10em; 
+}
+.studyicon{
+  color: #1E67E3;
+ }
+
+
+.phnnav{
+  margin-bottom:.5em;
+}
+
+.top1{
+  display: flex;
+  align-items:center;
+  color: #333333;
+  line-height:3em;
+  border-radius: 0em 0.4em 0.4em 0em;
+  font-family: "AvertaStd-Semibold";
+  padding-left:2.85em;
+  letter-spacing: 0.01em;
+  width:19em;
+}
+.top1 p{
+  font-size:1.3em;
+}
+.text12{
+width:11.03em;
+}
+
+
+
+
+
+.ALLCLASS123 p a{
+  font-family: "AvertaStd-Regular";
+  font-size:1em;
+  letter-spacing: 0.01em;
+  padding-left: 3.1em;
+  color: #518BEC;
+  line-height: 2em;
+}
+
+
+.mobnavbottom{
+margin-top:calc(100vh - 34em);
+padding-bottom:8em;
+}
+.bottom1{
+  display: flex;
+  align-items:center;
+  width:22em;
+  line-height:3em;
+  font-family: "AvertaStd-Semibold";
+  padding-left:3em;
+  letter-spacing: 0.01em;
+ padding-bottom:.6em;
+  border-radius: 0em 0.4em 0.4em 0em;
+  margin-top:0.6em;
+}
+.bottom1 p{
+  font-size:1.5em;
+ }
+.bottom1_text
+{
+text-align:left;
+padding-left:.6em;
+width:8em; 
+color: #333333;
+}
+
+
+
+
+
+
+
+
+/* 
+.pnavicon1,.pnavicon2,.pnavicon3,.pnavicon4,.pnavicon5,.pnavicon6,.pnavicon7{
+ transform: rotate(0);
+} */
+
+.deg180{
+  transform: rotate(180deg);
+}
+
+
+
+
+.phnnav{
+  display: none ;
+}
+
+.cbseList{
+  display: none ;
+}
+
+.icselist{
+  display: none ;
+}
+.jeelist{
+  display:none
+}
+.neetlist{
+  display:none
+}
+
+.ncertlist{
+  display: none;
+} 
+
+.tutionlist{
+  display:none
+} 
+.activelist1{
+  display: block;
+}
+
+
